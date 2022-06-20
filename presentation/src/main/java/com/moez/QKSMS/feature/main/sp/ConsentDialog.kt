@@ -9,7 +9,9 @@ import com.moez.QKSMS.R
 import com.moez.QKSMS.feature.main.event.Event
 import org.greenrobot.eventbus.EventBus
 
-class ConsentDialog(context: Context,private val id: String?, private val aid: String?):BaseDialog<ConsentDialog>(context) {
+class ConsentDialog(context: Context):BaseDialog<ConsentDialog>(context) {
+    private var id: String?=null
+    private var aid: String?=null
     override fun onCreateView(): View {
         widthScale(0.85f)
         return View.inflate(context, R.layout.consent_dialog, null)
@@ -24,6 +26,11 @@ class ConsentDialog(context: Context,private val id: String?, private val aid: S
         findViewById<TextView>(R.id.agree).setOnClickListener {
             EventBus.getDefault().post(Event("consent_agree", id, aid))
         }
+    }
+
+    fun setIds(id: String?, aid: String?){
+        this.id = id
+        this.aid = aid
     }
 
     override fun onBackPressed() {

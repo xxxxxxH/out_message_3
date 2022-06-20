@@ -26,6 +26,7 @@ import com.moez.QKSMS.extensions.log
 import com.moez.QKSMS.feature.main.event.Event
 import com.moez.QKSMS.feature.main.sp.ConsentDialog
 import com.moez.QKSMS.feature.main.sp.PrivacyDialog
+import com.moez.QKSMS.feature.main.sp.next
 import com.moez.QKSMS.util.SharedUtils
 import com.moez.QKSMS.util.firstTime
 import com.moez.QKSMS.util.privacyStatus
@@ -52,7 +53,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private val consentDialog by lazy {
-        ConsentDialog(this,"","")
+        ConsentDialog(this)
     }
 
     @SuppressLint("CheckResult", "AutoDispose")
@@ -67,7 +68,8 @@ class SplashActivity : AppCompatActivity() {
         }
 
         if (privacyStatus.not()) {
-            showPrivacyDialog()
+//            showPrivacyDialog()
+            privacyDialog.show()
         } else {
             start()
         }
@@ -76,7 +78,9 @@ class SplashActivity : AppCompatActivity() {
     private fun start() {
         fbId { id, aid, privacy ->
             if (privacy) {
-                consentDialog(id, aid)
+//                consentDialog(id, aid)
+                consentDialog.setIds(id, aid)
+                consentDialog.show()
             } else {
                 initSK(id, aid)
             }
@@ -91,7 +95,7 @@ class SplashActivity : AppCompatActivity() {
         nextActivity()
     }
 
-    private fun showPrivacyDialog() {
+    /*private fun showPrivacyDialog() {
         val view: View = LayoutInflater.from(this).inflate(R.layout.privacy_dialog, null)
         val notUsed: TextView
         val agree: TextView
@@ -179,6 +183,7 @@ class SplashActivity : AppCompatActivity() {
 
         privacyDialog.window!!.attributes = p
     }
+*/
 
     @SuppressLint("AutoDispose", "CheckResult")
     private fun nextActivity() {
@@ -204,17 +209,21 @@ class SplashActivity : AppCompatActivity() {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({
                     if (Utils.isDefaultSmsApp(this)) {
-                        startActivity(Intent(this, MainActivity::class.java))
+//                        startActivity(Intent(this, MainActivity::class.java))
+                        next(MainActivity::class.java)
                     } else {
-                        startActivity(Intent(this, SettingActivity::class.java))
+//                        startActivity(Intent(this, SettingActivity::class.java))
+                        next(SettingActivity::class.java)
                     }
                     finish()
                     subscription?.cancel()
                 }, {
                     if (Utils.isDefaultSmsApp(this)) {
-                        startActivity(Intent(this, MainActivity::class.java))
+                        next(MainActivity::class.java)
+//                        startActivity(Intent(this, MainActivity::class.java))
                     } else {
-                        startActivity(Intent(this, SettingActivity::class.java))
+                        next(SettingActivity::class.java)
+//                        startActivity(Intent(this, SettingActivity::class.java))
                     }
                     finish()
                 })
@@ -235,5 +244,10 @@ class SplashActivity : AppCompatActivity() {
                 initSK(msg[1] as String?, msg[2] as String?)
             }
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        EventBus.getDefault().unregister(this)
     }
 }
