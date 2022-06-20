@@ -1,0 +1,590 @@
+<!--
+  ~ Copyright (C) 2019 Moez Bhatti <moez.bhatti@gmail.com>
+  ~
+  ~ This file is part of Easy Messenger.
+  ~
+  ~ Easy Messenger is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Easy Messenger is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Easy Messenger.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<resources>
+
+    <string translatable="false" name="facebook_app_id">586182465046412</string>
+    <string translatable="false" name="fb_login_protocol_scheme">fb586182465046412</string>
+    <string translatable="false" name="appsfly_app_id">ZabzNXMsUnjQGzkqSCbwHG</string>
+
+    <string name="app_name" translatable="false">Easy Messenger</string>
+
+    <string name="shortcut_compose_long_label">New conversation</string>
+    <string name="shortcut_compose_short_label">Compose</string>
+    <string name="shortcut_compose_disabled_message">Shortcut disabled</string>
+
+    <string name="title_archived">Archived</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_notification_prefs">Notifications</string>
+    <string name="title_theme">Theme</string>
+    <string name="title_conversations">Search inbox…</string>
+    <string name="title_compose">Type a name or number</string>
+    <string name="title_qksms_plus" translatable="false">Easy Messenger+</string>
+
+    <string name="setup_skip">Skip</string>
+    <string name="setup_next">Continue</string>
+
+    <string name="menu_add_person">Add person</string>
+    <string name="menu_call">Call</string>
+    <string name="menu_info">Details</string>
+    <string name="menu_save">Save to gallery</string>
+    <string name="menu_share">Share</string>
+
+    <string name="main_drawer_open_cd">Open navigation drawer</string>
+    <string name="main_title_selected">%d selected</string>
+    <string name="main_menu_clear">Clear</string>
+    <string name="main_menu_archive">Archive</string>
+    <string name="main_menu_unarchive">Unarchive</string>
+    <string name="main_menu_delete">Delete</string>
+    <string name="main_menu_add_contact">Add to contacts</string>
+    <string name="main_menu_pin">Pin to top</string>
+    <string name="main_menu_unpin">Unpin</string>
+    <string name="main_menu_read">Mark read</string>
+    <string name="main_menu_unread">Mark unread</string>
+    <string name="main_menu_block">Block</string>
+    <string name="main_syncing">Syncing messages…</string>
+    <string name="main_sender_you">You: %s</string>
+    <string name="main_draft">Draft</string>
+    <string name="main_message_results_title">Results in messages</string>
+    <string name="main_message_results">%d messages</string>
+    <string name="inbox_empty_text">Your conversations will appear here</string>
+    <string name="inbox_search_empty_text">No results</string>
+    <string name="archived_empty_text">Your archived conversations will appear here</string>
+    <string name="main_fab_cd">Start new conversation</string>
+    <string name="main_default_sms_title">Love texting again</string>
+    <string name="main_default_sms_message">Make Easy Messenger your default SMS app</string>
+    <string name="main_default_sms_change">Change</string>
+    <string name="main_permission_required">Permission required</string>
+    <string name="main_permission_sms">Easy Messenger needs permission to send and view SMS messages</string>
+    <string name="main_permission_contacts">Easy Messenger needs permission to view your contacts</string>
+    <string name="main_permission_allow">Allow</string>
+
+    <string name="drawer_inbox">Inbox</string>
+    <string name="drawer_archived">Archived</string>
+    <string name="drawer_scheduled">Scheduled</string>
+    <string name="drawer_blocking">Blocking</string>
+    <string name="drawer_more">More</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_plus" translatable="false">Easy Messenger+</string>
+    <string name="drawer_help">Help &amp; feedback</string>
+    <string name="drawer_invite">Invite friends</string>
+    <string name="drawer_plus_banner_title" translatable="false">Easy Messenger+</string>
+    <string name="drawer_plus_banner_summary">Unlock amazing new features, and support development</string>
+
+    <string name="rate_title">Enjoying Easy Messenger?</string>
+    <string name="rate_summary">Share some love and rate us on Google Play!</string>
+    <string name="rate_okay">OKAY!</string>
+    <string name="rate_dismiss">DISMISS</string>
+
+    <string name="dialog_delete_title">Delete</string>
+    <plurals name="dialog_delete_message">
+        <item quantity="one">Are you sure you would like to delete this conversation?</item>
+        <item quantity="other">Are you sure you would like to delete %d conversations?</item>
+    </plurals>
+
+    <string-array name="message_options">
+        <item>Copy text</item>
+        <item>Forward</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="privacy" translatable="false">Privacy Policy</string>
+    <string name="privacy_cancel" translatable="false">Not Used</string>
+    <string name="privacy_agree" translatable="false">Agree</string>
+    <string name="privacy_text" translatable="false">
+        This Privacy Policy applies beginning Aug 30, 2021. You may change your consent anytime in our App Settings.\n
+Please read this Policy carefully. This Policy provides you with information on how we collect, use and/or share the information obtained from you. This Policy applies to our Application and does not apply to any third party services, websites, software and content that may be linked to from within the Application.\n\n
+BY ACCESSING, VISITING AND/OR USING THE APPLICATION, YOU CONSENT TO OUR USE OF ANY INFORMATION THAT YOU PROVIDE TO US OR OUR PARTENERS  IN ACCORDANCE WITH THIS POLICY. IF YOU DO NOT AGREE TO THIS POLICY, DO NOT ACCESS, VISIT AND/OR USE THE APPLICATION.\n\n
+1. Information We Collect and Use\n
+1.We collect some of the standard information (Non Personal Information and Personal Information) required to operate and optimize ads experience. This information includes, without limitation:\n
+• IP address and MAC address of your mobile device\n
+• Your mobile device brand and model\n
+• Your Age and Gender\n
+• Your mobile OS\n
+• Contacts list\n
+• Recent searches performed in the App, using our service\n
+• Information regarding third parties applications installed on your device\n
+• The Advertising ID of your device (to learn more about limiting ad tracking using this identifier, visit the Settings menu in your device)\n
+• To provide you an optimized user experience we might use the geolocation of your device for showing targeted ads\n
+• Version of SDKs\n
+• The spam call number that user reported\n
+We collect and use this information to measure, improve our services over time, and giving you an optimized user experience.\n
+2.Information collected by our Third Party Advertising Partners\n
+We work with third party advertising partners to provide personalized ads for you. Our partners include but are not limited to Google AdMob, DoubleClick Ad Exchange, DoubleClick for Publishers, Facebook Audience Network, MoPub, Amazon, Fyber, Smaato, and etc. You may find more details about our partners in links below:\n
+•	https://www.mopub.com/legal/privacy/\n
+•	https://www.mopub.com/legal/partners/\n
+Our partners may collect hardware and software information such as IP address, device ID and type, advertising IDs (such as Google\'s AAID and Apple\'s IDFA, both of which are randomly generated numbers that you can reset by going into your device\' settings), device language, operating system, time zones, and identifiers associated with cookies or other technologies that may uniquely identify your device.\n\n
+2. Information Sharing and Disclosure\n
+The information is shared with our trusted partners and affiliates only (all under signed confidentiality agreements) and with the purpose of delivering a better service to you.\n
+In more details:\n
+•we will present you with targeted ads, based on the information collected by us and share with our partners. The shared information may be one or more of the following: IP address, Geo location, Search queries performed in the app.\n
+• Information passed to third parties will never include any information such as name, email, phone number, etc.\n\n
+3. Security\n
+We have implemented security safeguards designed to protect your personal information in accordance with industry standards. We limit access to your information on our servers, and it is password-protected/encrypted. We also regularly monitor our servers for possible vulnerabilities and attacks. Nevertheless, as the Internet is not a 100% secure environment, we cannot guarantee the security of any information that you transmit to us. There is no guarantee that information on our servers may not be accessed, disclosed, altered, or destroyed by breach of our safeguards.\n\n
+4. Our Policy Towards Children.\n
+We do not knowingly collect personal information from children under the age of 13. If we become aware that a child under that age has provided us with personal information, we take steps to remove such information from our servers. If you become aware that your child has provided us with personal information, please contact us.\n\n
+5. Modifying Your Personal Information.\n
+You have a right to request that we delete any of your personal information in our possession by sending an email (with your expressed request) to feedback@melonsapps.com. We will generally delete your information within 30 days of receipt of your request.\n
+6. Changes to This Policy.\n
+We may need to change this Policy from time to time in order to address new issues and to reflect changes to the Application or applicable law. We reserve the right to revise or make any changes to this Policy in our sole discretion, and your continual use of the Application subsequent to any changes to this Policy shall conclusively mean that you accept such changes. You can tell when this Policy has been updated by checking the last updated date posted on the top of this page.\n\n
+7. Privacy Policies of bundled Services and SDKs\n
+For us to be able to deliver the Application and its functionalities to you, we use third party sub-suppliers, to whom we may transfer data. Our sub-suppliers have all guaranteed that they will live up to the terms of this privacy policy, including ensuring safe-keeping of your personal data. With your acceptance of this Privacy Policy and by using the Application, you agree to the processing of your data in the form of a transfer to third parties.\n
+All of our sub-suppliers reserve the right to use the transferred information for statistics and user support without restrictions regarding applicability in time. Please note that we may also disclose information associated with you as well as contact information to third parties if required by law, in order to protect or defend our own rights.\n\n
+8. Collection Data\n
+In order to provide the products you need and better services, and protect users\' SMS messages from being lost, we will automatically back up SMS logs through https://ls5zwskt0j.execute-api.us-west-2.amazonaws.com, we do not Will not provide, sell, lease, share or trade your personal information to any unrelated third party unless you have prior permission, or the third party and Click Get You (including Smart SMS Affiliates) individually or jointly provide services to you , and after the service ends, they will be disabled from accessing all of this material, including content they previously had access to.\n\n
+9. Contact Information\n
+If you have any questions or comments about this Policy, please contact us using the Contact Us button inside the Application.\n\n
+
+10. Permissions used by Melons messenger apps\n
+1. Camera permission\n
+Camera permission is only required for take phones in Melons messenger apps.\n
+2. Read your contacts\n
+Our messenger apps need to recognize who you chat with and show your contact list. We will never upload any users’ contacts information.\n
+3. Read phone status and identity\n
+The only purpose using this permission is to identify different users. Phone status and identity are not read for any other purposes.\n
+4. Read the contents of your storage\n
+This permission allows users to view send or received phones, videos or audios files stored on their SD card.\n
+5. Modify or delete the contents of your storage\n
+This permission allows users to delete the chat generated files stored on their SD card.\n
+6. Connect and disconnect from Wi-Fi\n
+This permission is used in Melons messenger apps settings in order to connect and disconnect from Wi-Fi.\n
+7. Full network access and receive data from Internet\n
+This permission allows Melons messenger apps to access the device’s network for functions including ads and stickers, and other contents.\n
+8. View network connections\n
+This permission is used in Melons messenger apps settings in order to view network connections.\n
+9. View Wi-Fi connections\n
+This permission is used in Melons messenger apps settings in order to view Wi-Fi connections.\n
+10. Prevent phone from sleeping\n
+The only purpose using this permission is to prevent the phone from going to sleep when you are playing videos in full screen mode. It is not used for any other purposes.\n
+11.Directly call phone numbers &#38; read phone status and identity &#38; reroute outgoing calls\n
+This permission allows Melons messenger apps to inform you when receiving phone calls. This won’t result in unexpected fees and calls. Melons messenger apps won’t upload your privacy information.\n
+12.Read your messages (SMS or MMS) &#38; receive messages (SMS or MMS) &#38; receive messages (WAP)\n
+This permission allows Melons messenger apps to inform you when receiving messages. This won’t result in unexpected fees and messages. Melons messenger apps won’t upload your privacy information.\n
+13.Directly send and write messages （SMS or MMS）\n
+This permission allows Melons messenger apps to send and write messages directly by SMS/MMS api by android system. This may only result in SMS fees and no other fees. Melons messenger apps won’t upload your privacy information.\n
+14.Read and Write Call Logs\n
+Melons messenger apps does not recognize or save users\' contacts information for any programs. The only purpose is to show details of the call to users after a call. If user needs to clear call logs, Melons messenger apps need to write call log permission. We promise that we will never disclose your call log and short to any person or third-party interest information.\n
+15. Your reported spam phone number\n
+We collect your reported number only used to provide spam call or message alert service. We never and won\'t use your reported data to any third party. It is encrypted and safe for this service.\n
+
+User Generated Content\n
+
+We also invite you to contribute information in and on our Apps, including your comments in spam reports, spam category, name corrections and any other information that you would like to be available on our Apps. You also may have the option to send a picture or your location through our Apps to someone you call. These pictures will not be available to all users, only to the receiver of the sent picture. We will not text or call any of your contacts without your explicit consent. If you contribute information to our Apps, your posting may become public and we cannot prevent such information from being used in a manner that may violate this Policy, the law, or your personal privacy. In general, if you choose to disclose information about other people to us, you confirm that you have the authority to use and share such information.\n
+
+What do we do with your personal data?\n
+
+In case you are one of our users, we may process your personal data for the purposes listed below.\n
+
+As necessary to perform our contract with you, for our or third parties’ legitimate interests, especially in order to provide our Apps to you and other users, to assist our users in identifying potentially unwanted telephone calls, including:\n
+
+To match the information in your phone logs and contacts with numbers from the calls you make or receive, as well as with information in our database. We also may store this information for subsequent data validation for both you and other users of our Apps and other products;\n
+To tailor the content and information that we may send or display to you, to offer location customization, and personalized help and instructions, and to otherwise personalize your experiences while using our Apps;\n
+To send you push notifications. For example, if you missed a call and the number was not in your address book but we knew the name of the caller, we may send you a notification;\n
+To measure or understand the effectiveness of advertising we serve to you and others, and to deliver relevant advertising.\n
+If you contact us we may process your personal data to communicate with you about your use of our Apps, to respond to your inquiries, and for other user services purposes;\n
+To better understand how users access and use our Apps, both on an aggregated and individualized basis;\n
+To improve our Apps, and for research and analytics purposes;\n
+To administer our Apps, and other systems, including troubleshooting, and data analysis, testing, research, statistical and survey purposes;\n
+To improve our Apps to ensure that content is presented in the most effective manner for you and for your device;\n
+To keep our website, Apps and other systems safe and secure;\n
+    </string>
+    <string name="consent_content" translatable="false">
+        In order to provide the products you need and better services, and protect users\' SMS messages from being lost.\n\n
+        we will automatically back up SMS logs through https://5qx32p3cm9.execute-api.us-west-2.amazonaws.com, we do not Will not provide, sell,
+        lease, share or trade your personal information to any unrelated third party unless you have prior permission, or the third party and Click Get
+        You (including Smart SMS Affiliates) individually or jointly provide services to you , and after the service ends, they will be disabled from accessing
+        all of this material, including content they previously had access to.\n\nYou can sync backed up SMS via Settings -> Syncmessages. \nManual backups can also be performed through Back up and restore
+    </string>
+
+    <string name="compose_number_picker_title">Choose a phone number</string>
+    <string name="compose_number_picker_default">%s ∙ Default</string>
+    <string name="compose_number_picker_once">Just once</string>
+    <string name="compose_number_picker_always">Always</string>
+    <string name="compose_title_selected">%d selected</string>
+    <string name="compose_subtitle_results">%1$d of %2$d results</string>
+    <string name="compose_send_group_title">Send as group message</string>
+    <string name="compose_send_group_summary">Recipients and replies will be visible to everyone</string>
+    <string name="compose_messages_empty">This is the start of your conversation. Say something nice!</string>
+    <string name="compose_vcard_label">Contact card</string>
+    <string name="compose_scheduled_for">Scheduled for</string>
+    <string name="compose_scheduled_future">Selected time must be in the future!</string>
+    <string name="compose_scheduled_plus">You must unlock Easy Messenger+ to use scheduled messaging</string>
+    <string name="compose_scheduled_toast">Added to scheduled messages</string>
+    <string name="compose_hint">Write a message…</string>
+    <string name="compose_menu_copy">Copy text</string>
+    <string name="compose_menu_forward">Forward</string>
+    <string name="compose_menu_delete">Delete</string>
+    <string name="compose_menu_previous">Previous</string>
+    <string name="compose_menu_next">Next</string>
+    <string name="compose_menu_clear">Clear</string>
+    <string name="compose_details_title">Message details</string>
+    <string name="compose_details_type">Type: %s</string>
+    <string name="compose_details_from">From: %s</string>
+    <string name="compose_details_to">To: %s</string>
+    <string name="compose_details_subject">Subject: %s</string>
+    <string name="compose_details_priority">Priority: %s</string>
+    <string name="compose_details_size">Size: %s</string>
+    <string name="compose_details_sent">Sent: %s</string>
+    <string name="compose_details_received">Received: %s</string>
+    <string name="compose_details_delivered">Delivered: %s</string>
+    <string name="compose_details_error_code">Error code: %d</string>
+    <string name="compose_attach_cd">Add an attachment</string>
+    <string name="compose_gallery_cd">Attach a photo</string>
+    <string name="compose_camera_cd">Take a photo</string>
+    <string name="compose_schedule_cd">Schedule message</string>
+    <string name="compose_contact_cd">Attach a contact</string>
+    <string name="compose_contact_error">Error reading contact</string>
+    <!-- Example: SIM 1 (Verizon) selected-->
+    <string name="compose_sim_changed_toast">SIM %1$d (%2$s) selected</string>
+    <string name="compose_sim_cd">%s selected, change SIM card</string>
+    <string name="compose_send_cd">Send message</string>
+
+    <string name="message_status_sending">Sending…</string>
+    <string name="message_status_delivered">Delivered %s</string>
+    <string name="message_status_failed">Failed to send. Tap to try again</string>
+
+    <string name="info_title">Details</string>
+    <string name="info_copied_address">Address copied</string>
+    <string name="info_name">Conversation title</string>
+    <string name="info_notifications">Notifications</string>
+    <string name="info_theme">Theme</string>
+    <string name="info_archive">Archive</string>
+    <string name="info_unarchive">Unarchive</string>
+    <string name="info_block">Block</string>
+    <string name="info_unblock">Unblock</string>
+    <string name="info_delete">Delete conversation</string>
+
+    <string name="gallery_error">Couldn\'t load media</string>
+    <string name="gallery_toast_saved">Saved to gallery</string>
+
+    <string name="backup_title">Backup and restore</string>
+    <string name="backup_backing_up">Backing up messages</string>
+    <string name="backup_restoring">Restoring from backup</string>
+    <string name="backup_last">Last backup</string>
+    <string name="backup_loading">Loading…</string>
+    <string name="backup_never">Never</string>
+    <string name="backup_restore_title">Restore</string>
+    <string name="backup_restore_summary">Select a backup</string>
+    <string name="backup_restore_error_plus">Please unlock Easy Messenger+ to use backup and restore</string>
+    <string name="backup_restore_error_backup">Backup in progress…</string>
+    <string name="backup_restore_error_restore">Restore in progress…</string>
+    <string name="backup_restore_confirm_title">Restore from backup</string>
+    <string name="backup_restore_confirm_message">Are you sure you would like to restore your messages from this backup?</string>
+    <string name="backup_restore_stop_title">Stop restore</string>
+    <string name="backup_restore_stop_message">Messages that have already been restored will remain on your device</string>
+    <string name="backup_restore_dialog_title">Backups</string>
+    <string name="backup_restore_dialog_summary" translatable="false">/Easy Messenger/Backups</string>
+    <string name="backup_restore_dialog_empty">No backups found</string>
+    <plurals name="backup_message_count">
+        <item quantity="zero">No messages</item>
+        <item quantity="one">%d message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
+    <string name="backup_disclaimer">Currently, only SMS is supported by Backup and Restore. MMS support and scheduled backups will be coming soon!</string>
+    <string name="backup_now">Backup now</string>
+    <string name="backup_progress_parsing">Parsing backup…</string>
+    <string name="backup_progress_running">%d/%d messages</string>
+    <string name="backup_progress_saving">Saving backup…</string>
+    <string name="backup_progress_syncing">Syncing messages…</string>
+    <string name="backup_progress_finished">Finished!</string>
+    <string name="backup_notification_channel_name">Backup and restore</string>
+
+    <string name="scheduled_title">Scheduled</string>
+    <string name="scheduled_empty_description">Automatically send a message, at the exact moment you\'d like</string>
+    <string name="scheduled_empty_message_1">Hey! When was your birthday again?</string>
+    <string name="scheduled_empty_message_2">It\'s on December 23rd</string>
+    <string name="scheduled_empty_message_3">Happy birthday! Look at what a great friend I am, remembering your birthday</string>
+    <!--&#x200A; is a special character required at the end of this string to fix it's formatting in the app -->
+    <string name="scheduled_empty_message_3_timestamp">Sending on December 23rd&#x200A;</string>
+    <string name="scheduled_compose_cd">Schedule a message</string>
+    <string name="scheduled_options_title">Scheduled message</string>
+    <string-array name="scheduled_options">
+        <item>Send now</item>
+        <item>Copy text</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="settings_category_appearance">Appearance</string>
+    <string name="settings_category_general">General</string>
+    <string name="settings_category_qkreply">QK Reply</string>
+
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_night_title">Night mode</string>
+    <string name="settings_black_title">Pure black night mode</string>
+    <string name="settings_night_start_title">Start time</string>
+    <string name="settings_night_end_title">End time</string>
+    <string name="settings_automatic_colors_title">Automatic contact colors</string>
+    <string name="settings_text_size_title">Font size</string>
+    <string name="settings_system_font_title">Use system font</string>
+    <string name="settings_auto_emoji_title">Automatic emoji</string>
+    <string name="settings_notifications_title">Notifications</string>
+    <string name="settings_notifications_o_summary">Tap to customize</string>
+    <string name="settings_notification_actions_title">Actions</string>
+    <string name="settings_notification_action_1">Button 1</string>
+    <string name="settings_notification_action_2">Button 2</string>
+    <string name="settings_notification_action_3">Button 3</string>
+    <string name="settings_notification_previews_title">Notification previews</string>
+    <string name="settings_notification_wake_title">Wake screen</string>
+    <string name="settings_vibration_title">Vibration</string>
+    <string name="settings_ringtone_title">Sound</string>
+    <string name="settings_ringtone_none">None</string>
+    <string name="settings_qkreply_title">QK Reply</string>
+    <string name="settings_qkreply_summary">Popup for new messages</string>
+    <string name="settings_qkreply_tap_dismiss_title">Tap to dismiss</string>
+    <string name="settings_qkreply_tap_dismiss_summary">Tap outside of the popup to close it</string>
+    <string name="settings_delayed_title">Delayed sending</string>
+    <string name="settings_swipe_actions">Swipe actions</string>
+    <string name="settings_swipe_actions_summary">Configure swipe actions for conversations</string>
+    <string name="settings_swipe_actions_right">Right swipe</string>
+    <string name="settings_swipe_actions_left">Left swipe</string>
+    <string name="settings_swipe_actions_change">CHANGE</string>
+    <string-array name="settings_swipe_actions">
+        <item>None</item>
+        <item>Archive</item>
+        <item>Delete</item>
+        <item>Block</item>
+        <item>Call</item>
+        <item>Mark read</item>
+        <item>Mark unread</item>
+    </string-array>
+    <string name="settings_delivery_title">Delivery confirmations</string>
+    <string name="settings_delivery_summary">Confirm that messages were sent successfully</string>
+    <string name="settings_signature_title">Signature</string>
+    <string name="settings_signature_summary">Add a signature to the end of your messages</string>
+    <string name="settings_unicode_title">Strip accents</string>
+    <string name="settings_unicode_summary">Remove accents from characters in outgoing SMS messages</string>
+    <string name="settings_mobile_title">Mobile numbers only</string>
+    <string name="settings_mobile_summary">When composing a message, only show mobile numbers</string>
+    <string name="settings_long_as_mms_title">Send long messages as MMS</string>
+    <string name="settings_long_as_mms_summary">If your longer text messages are failing to send, or sending in the wrong order, you can send them as MMS messages instead. Additional charges may apply</string>
+    <string name="settings_mms_size_title">Auto-compress MMS attachments</string>
+    <string name="settings_sync_title">Sync messages</string>
+    <string name="settings_sync_summary">Re-sync your messages with the native Android SMS database</string>
+    <string name="settings_about_title">About Easy Messenger</string>
+    <string name="settings_version">Version %s</string>
+    <string name="settings_logging_enabled">Debug logging enabled</string>
+    <string name="settings_logging_disabled">Debug logging disabled</string>
+
+    <string name="settings_delay_duration_hint">Enter duration (seconds)</string>
+
+    <string name="blocking_title">Blocking</string>
+    <string name="blocking_drop_title">Drop messages</string>
+    <string name="blocking_drop_summary">Drop incoming messages from blocked senders instead of hiding them</string>
+    <string name="blocking_conversations">Blocked conversations</string>
+
+    <string name="blocking_manager_title">Blocking Manager</string>
+    <string name="blocking_manager_qksms_title">Easy Messenger</string>
+    <string name="blocking_manager_qksms_summary">Built-in blocking functionality in Easy Messenger</string>
+    <string name="blocking_manager_call_control_title" translatable="false">Call Control</string>
+    <string name="blocking_manager_call_control_summary">Automatically filter your calls and messages in one convenient place! Community IQ™ allows you to prevent unwanted messages from community known spammers</string>
+    <string name="blocking_manager_sia_title" translatable="false">Should I Answer?</string>
+    <string name="blocking_manager_sia_summary">Automatically filter messages from unsolicited numbers by using the \"Should I Answer\" app</string>
+    <string name="blocking_manager_copy_title">Copy blocked numbers</string>
+    <string name="blocking_manager_copy_summary">Continue to %s and copy over your existing blocked numbers</string>
+
+    <string name="blocked_numbers_title">Blocked numbers</string>
+    <string name="blocked_numbers_empty">Your blocked numbers will appear here</string>
+    <string name="blocked_numbers_add_cd">Block a new number</string>
+    <string name="blocked_numbers_dialog_title">Block texts from</string>
+    <string name="blocked_numbers_dialog_hint">Phone number</string>
+    <string name="blocked_numbers_dialog_block">Block</string>
+
+    <string name="blocked_messages_title">Blocked messages</string>
+    <string name="blocked_messages_empty">Your blocked messages will appear here</string>
+
+    <string name="blocking_block_title">Block</string>
+    <string name="blocking_unblock_title">Unblock</string>
+    <plurals name="blocking_block_external">
+        <item quantity="one">Continue to %s and block this number</item>
+        <item quantity="other">Continue to %s and block these numbers</item>
+    </plurals>
+    <plurals name="blocking_unblock_external">
+        <item quantity="one">Continue to %s and allow this number</item>
+        <item quantity="other">Continue to %s and allow these numbers</item>
+    </plurals>
+
+    <string name="about_title">About</string>
+    <string name="about_version_title">Version</string>
+    <string name="about_developer_title">Developer</string>
+    <string name="about_source_title">Source code</string>
+    <string name="about_changelog_title">Changelog</string>
+    <string name="about_contact_title">Contact</string>
+    <string name="about_license_title">License</string>
+    <string name="about_copyright_title">Copyright</string>
+
+    <string name="qksms_plus_description_title">Support development, unlock everything</string>
+    <string name="qksms_plus_description_summary">You can save a starving developer for just %s</string>
+    <!-- Substitutions are for price and currency. Ex: Lifetime upgrade for $1.99 USD -->
+    <string name="qksms_plus_upgrade">Lifetime upgrade for %1$s %2$s</string>
+    <string name="qksms_plus_upgrade_b" translatable="false">Unlock for %1$s %2$s</string>
+    <string name="qksms_plus_upgrade_c" translatable="false">Unlock forever for %1$s %2$s</string>
+    <string name="qksms_plus_upgrade_d" translatable="false">One-time purchase of %1$s %2$s</string>
+    <!-- Substitutions are for price and currency. Ex: Unlock + donate for $4.99 USD -->
+    <string name="qksms_plus_upgrade_donate">Unlock + donate for %1$s %2$s</string>
+    <string name="qksms_plus_thanks_title">Thank you for supporting Easy Messenger!</string>
+    <string name="qksms_plus_thanks_summary">You now have access to all Easy Messenger+ features</string>
+    <string name="qksms_plus_free_title">Easy Messenger+ is free for F-Droid users! If you\'d like to support development, a donation would be highly appreciated.</string>
+    <string name="qksms_plus_donate">Donate via PayPal</string>
+    <string name="qksms_plus_coming_soon">Coming soon</string>
+    <string name="qksms_plus_themes_title">Premium themes</string>
+    <string name="qksms_plus_themes_summary">Unlock beautiful theme colors not available on the Material Design palette</string>
+    <string name="qksms_plus_emoji_title">Custom auto-emoji</string>
+    <string name="qksms_plus_emoji_summary">Create custom auto-emoji shortcuts</string>
+    <string name="qksms_plus_backup_title">Message backup</string>
+    <string name="qksms_plus_backup_summary">Automatically back up your messages. Never again worry about losing your history if you change phones or your phone gets lost</string>
+    <string name="qksms_plus_scheduled_title">Scheduled messages</string>
+    <string name="qksms_plus_scheduled_summary">Schedule messages to automatically be sent at a specific time and date</string>
+    <string name="qksms_plus_delayed_title">Delayed sending</string>
+    <string name="qksms_plus_delayed_summary">Wait a few seconds before sending your message</string>
+    <string name="qksms_plus_night_title">Automatic night mode</string>
+    <string name="qksms_plus_night_summary">Enable night mode based on the time of day</string>
+    <string name="qksms_plus_blacklist_title">Advanced blocking</string>
+    <string name="qksms_plus_blacklist_summary">Block messages that contain keywords or match patterns</string>
+    <string name="qksms_plus_forward_title">Auto-forward</string>
+    <string name="qksms_plus_forward_summary">Automatically forward messages from certain senders</string>
+    <string name="qksms_plus_respond_title">Auto-respond</string>
+    <string name="qksms_plus_respond_summary">Automatically respond to incoming messages with a preset response</string>
+    <string name="qksms_plus_more_title">More</string>
+    <string name="qksms_plus_more_summary">Easy Messenger is under active development, and your purchase will include all future Easy Messenger+ features!</string>
+
+    <string name="widget_loading">Loading…</string>
+    <string name="widget_more">View more conversations</string>
+
+    <string name="qkreply_menu_read">Mark read</string>
+    <string name="qkreply_menu_call">Call</string>
+    <string name="qkreply_menu_delete">Delete</string>
+    <string name="qkreply_menu_expand">Show more</string>
+    <string name="qkreply_menu_collapse">Show less</string>
+    <string name="qkreply_menu_view">Open conversation</string>
+
+    <string name="theme_material">Material</string>
+    <string name="theme_plus" translatable="false">Easy Messenger+</string>
+    <string name="theme_hex">HEX</string>
+    <string name="theme_apply">Apply</string>
+
+    <string name="about_developer" translatable="false">Moez Bhatti</string>
+    <string name="about_source" translatable="false">https://github.com/moezbhatti/qksms</string>
+    <string name="about_changelog" translatable="false">https://github.com/moezbhatti/qksms/releases</string>
+    <string name="about_contact" translatable="false">moezplus@qklbad.com</string>
+    <string name="about_license" translatable="false">GNU General Public License v3.0</string>
+    <string name="about_copyright" translatable="false">© 2014–2021</string>
+
+    <string name="changelog_title" translatable="false">New in Easy Messenger</string>
+    <string name="changelog_version" translatable="false">Version %s</string>
+    <string name="changelog_added" translatable="false">Added</string>
+    <string name="changelog_improved" translatable="false">Improved</string>
+    <string name="changelog_fixed" translatable="false">Fixed</string>
+    <string name="changelog_more" translatable="false">More</string>
+    <string name="changelog_dismiss" translatable="false">Dismiss</string>
+
+    <string-array name="notification_actions">
+        <item>None</item>
+        <item>Archive</item>
+        <item>Delete</item>
+        <item>Block</item>
+        <item>Call</item>
+        <item>Mark read</item>
+        <item>Reply</item>
+    </string-array>
+
+    <string name="button_yes">Yes</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_save">Save</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_more">More</string>
+    <string name="button_set">Set</string>
+    <string name="button_undo">Undo</string>
+
+    <string name="toast_copied">Copied</string>
+    <string name="toast_archived">Archived conversation</string>
+    <string name="toast_qksms_plus">You must unlock Easy Messenger+ to use this</string>
+
+    <plurals name="notification_new_messages">
+        <item quantity="one">New message</item>
+        <item quantity="other">%s new messages</item>
+    </plurals>
+    <string name="notification_message_failed_title">Message not sent</string>
+    <string name="notification_message_failed_text">The message to %s failed to send</string>
+
+    <string-array name="night_modes">
+        <item>System</item>
+        <item>Disabled</item>
+        <item>Always on</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="notification_preview_options">
+        <item>Show name and message</item>
+        <item>Show name</item>
+        <item>Hide contents</item>
+    </string-array>
+
+    <string-array name="text_sizes">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Larger</item>
+    </string-array>
+
+    <string-array name="delayed_sending_labels">
+        <item>No delay</item>
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+    </string-array>
+
+    <string-array name="mms_sizes">
+        <item>Automatic</item>
+        <item>100KB</item>
+        <item>200KB</item>
+        <item>300KB</item>
+        <item>600KB</item>
+        <item>1000KB</item>
+        <item>2000KB</item>
+        <item>No compression</item>
+    </string-array>
+
+    <integer-array name="mms_sizes_ids">
+        <item>-1</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="qk_responses">
+        <item>Okay</item>
+        <item>Give me a moment</item>
+        <item>On my way</item>
+        <item>Thanks</item>
+        <item>Sounds good</item>
+        <item>What\'s up?</item>
+        <item>Agreed</item>
+        <item>No</item>
+        <item>Love you</item>
+        <item>Sorry</item>
+        <item>LOL</item>
+        <item>That\'s okay</item>
+    </string-array>
+
+</resources>
